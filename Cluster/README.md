@@ -1,12 +1,12 @@
-## Описание данных
+## Data Description
 
-Данный набор данных содержит информацию о различных странах, включая показатели населения, площади, плотности населения, миграции, смертности младенцев, ВВП, грамотности населения, использования телефонов, уровне обработки почвы, климате и других факторах.
+This dataset contains information about various countries, including population, area, population density, migration, infant mortality rate, GDP, literacy rate, telephone usage, soil fertility, climate, and other factors.
 
-### Содержание данных
+### Data Content
 
-Данные представлены в формате таблицы, где каждая строка представляет отдельную страну, а каждый столбец представляет определенный признак.
+The data is presented in a tabular format, where each row represents a specific country, and each column represents a particular attribute.
 
-### Столбцы
+### Columns
 
 - Country: Название страны.
 - Region: Регион, к которому принадлежит страна.
@@ -29,10 +29,10 @@
 - Industry: Доля промышленности в ВВП.
 - Service: Доля услуг в ВВП.
 
-### Использование данных
+### Data Usage
 
-Эти данные могут быть полезными для анализа и исследования различных аспектов стран, таких как демография, экономика, здравоохранение, образование и др. Вы можете использовать эти данные для выполнения статистических анализов, визуализации, машинного обучения и других задач, связанных с анализом данных.
+These data can be useful for analyzing and researching various aspects of countries such as demographics, economy, healthcare, education, etc. You can use this data for statistical analysis, visualization, machine learning, and other data analysis tasks.
 
-### Источник данных
+### Data Source
 
-Набор данных был получен из некоторых источников, и точность и полнота данных могут варьироваться. Пожалуйста, обратите внимание на это при использовании данных для серьезных исследований.
+The dataset has been obtained from various sources, and the accuracy and completeness of the data may vary. Please note this when using the data for serious research purposes.
