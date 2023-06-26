@@ -1,2 +1,2 @@
-## train.csv - тренировочные данные. Их сначала будем анализировать, после применять к ним различные модели машинного обучения.
-## test.csv - данные, которые будем применять для теста обученных моделей. В этих данных нет целевой переменной, ее нужно предсказать.
+## train.csv - training data. We will analyze them first, then apply various machine learning models to them.
+## test.csv - data that we will use for the test of trained models. There is no target variable in this data, it needs to be predicted.
