@@ -1,1 +1,1 @@
-## В данном репозитории находятся проекты по машинному обучению. Решаются задачи регрессии, классификации, кластеризации.
+## This repository contains machine learning projects. Regression, classification, and clustering problems are solved.
