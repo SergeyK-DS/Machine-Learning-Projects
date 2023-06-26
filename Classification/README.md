@@ -1,25 +1,25 @@
-# Проект: Предсказывание поведения клиентов для удержания
+# Project: Customer Behavior Prediction for Retention
 
-## Цель проекта
-Цель проекта заключается в предсказании поведения клиентов с целью удержания их в компании.
+## Project Goal
+The goal of this project is to predict customer behavior in order to retain them in the company.
 
-## Содержание
-- Введение
-- Описание набора данных
-- Лучшая модель и ее метрики
+## Contents
+- Introduction
+- Dataset Description
+- Best Model and its Metrics
 
-## Введение
-Данный проект основан на анализе данных о клиентах и их поведении, а также на использовании различных моделей машинного обучения для предсказания оттока клиентов. Одной из лучших моделей, которая была применена, является CatBoostClassifier с базовыми гиперпараметрами.
+## Introduction
+This project is based on analyzing customer data and their behavior, as well as using various machine learning models to predict customer churn. One of the best models applied is the CatBoostClassifier with default hyperparameters.
 
-## Описание набора данных
-Набор данных содержит информацию о клиентах, включая атрибуты клиентов, описанные в столбце "Метаданные". В набор данных включены следующие аспекты:
-- Отток клиентов за последний месяц (колонка "Отток").
-- Услуги, на которые подписались клиенты, включая телефон, несколько линий, Интернет, онлайн-безопасность, онлайн-резервное копирование, защиту устройств, техническую поддержку, потоковое телевидение и фильмы.
-- Информация об учетной записи клиента, такая как продолжительность подписки, тип контракта, способ оплаты, использование безбумажного биллинга, ежемесячные и общие платежи.
-- Демографическая информация о клиентах, включая пол, возрастной диапазон, наличие партнеров и иждивенцев.
+## Dataset Description
+The dataset contains information about customers, including customer attributes described in the "Metadata" column. The dataset includes the following aspects:
+- Customer churn in the last month (column "Churn").
+- Services customers have subscribed to, including phone, multiple lines, internet, online security, online backup, device protection, tech support, streaming TV, and movies.
+- Customer account information, such as subscription duration, contract type, payment method, paperless billing usage, monthly and total charges.
+- Demographic information about customers, including gender, age range, presence of partners and dependents.
 
-## Лучшая модель и ее метрики
-Лучшей моделью, примененной в проекте, является CatBoostClassifier с базовыми гиперпараметрами. Ниже приведены метрики оценки модели:
+## Best Model and its Metrics
+The best model applied in the project is the CatBoostClassifier with default hyperparameters. The model evaluation metrics are as follows:
 
 - Model(CatBoostClassifier)
 - Precision_yes: 0.7
