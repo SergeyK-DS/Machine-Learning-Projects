@@ -1,1 +1,1 @@
-### Telco-Customer-Churn - файл, в котором содержатся данные, которые были использованы в проекте.
+### The file Telco-Customer-Churn.csv contains data for the project
