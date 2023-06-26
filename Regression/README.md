@@ -1,57 +1,57 @@
-# Прогнозирование стоимости недвижимости в Мельбурне
+# Predicting Real Estate Prices in Melbourne
 
-Данный проект основан на анализе данных о стоимости недвижимости в Мельбурне и использовании моделей машинного обучения для прогнозирования цен на недвижимость.
+This project is based on analyzing real estate data in Melbourne and using machine learning models to predict property prices.
 
-## Задачи
+## Objectives
 
-- Анализ данных о недвижимости
-- Прогнозирование стоимости недвижимости с помощью моделей машинного обучения
+- Analyze real estate data
+- Predict property prices using machine learning models
 
-## Используемые модели
+## Models Used
 
-В данной задаче мы будем использовать CatBoost - библиотеку градиентного бустинга, которая хорошо справляется с обработкой категориальных текстовых признаков.
+In this task, we will be using CatBoost, a gradient boosting library that handles categorical features well.
 
-## Параметры объекта
+## Object Features
 
-В датасете представлены следующие параметры объектов недвижимости:
+The dataset includes the following features of real estate properties:
 
-- Suburb – Район
-- Address – Адрес
-- Rooms – Количество комнат
-- Type – Тип объекта:
+- Suburb – Suburb or district
+- Address – Address of the property
+- Rooms – Number of rooms
+- Type – Type of property:
   - h - house, cottage, villa, semi, terrace;
   - u - unit, duplex;
   - t - townhouse.
-- Price – Цена объекта
-- Method – Метод продажи объекта:
+- Price – Price of the property
+- Method – Method of sale:
   - S - property sold;
   - SP - property sold prior;
   - PI - property passed in;
   - VB - vendor bid;
   - SA - sold after auction.
-- SellerG – Имя риэлтора
-- Date – Дата продажи объекта
-- Distance – Расстояние до центрального района в километрах
-- Postcode – Почтовый индекс
-- Bedrooms2 – Количество спален
-- Bathroom – Количество ванных комнат
-- Car – Количество парковочных мест
-- Landsize – Площадь прилегающей территории
-- BuildingArea – Площадь самого объекта
-- YearBuilt – Год постройки
-- CouncilArea – Округ
-- Latitude – Широта
-- Longitude – Долгота
-- Regionname – Еще одно административное деление на подобие округа
-- Propertycount – Количество объектов в округе
-- ID – ID объекта
+- SellerG – Name of the real estate agent
+- Date – Date of sale
+- Distance – Distance to CBD in kilometers
+- Postcode – Postal code
+- Bedrooms2 – Number of bedrooms
+- Bathroom – Number of bathrooms
+- Car – Number of parking spaces
+- Landsize – Land size in square meters
+- BuildingArea – Building area in square meters
+- YearBuilt – Year the property was built
+- CouncilArea – Local government area
+- Latitude – Latitude coordinates
+- Longitude – Longitude coordinates
+- Regionname – Region name
+- Propertycount – Number of properties in the suburb
+- ID – Property ID
 
-## Дополнительные данные
+## Additional Data
 
-Для получения дополнительных данных о широте и долготе районов (Suburb) с почтовым индексом, вы можете использовать следующие источники:
+To obtain additional latitude and longitude data for suburbs with postal codes, you can use the following sources:
 
 - [Matthew Proctor - Australian Postcodes](https://www.matthewproctor.com/australian_postcodes)
 
-Для построения карты с широтой и долготой районов (Suburb), вы можете использовать следующий источник:
+To create a map with latitude and longitude for suburbs, you can use the following source:
 
 - [Data.gov.au - Suburb Locality Boundaries](https://data.gov.au/geoserver/vic-suburb-locality-boundaries-ps
