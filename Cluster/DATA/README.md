@@ -1,2 +1,2 @@
-### CIA_Country_Facts - данные для анализа и кластеризации данных
-### country_iso_codes - коды стран для визуализации географической карты мира
+### CIA_Country_Facts - data for data analysis and clustering
+### country_iso_codes - country codes for visualizing the geographical map of the world
